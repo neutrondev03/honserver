@@ -1,27 +1,21 @@
-This project provides the bare minimum to keep playing HoN when it shuts down:
- - Patched binaries to allow multiplayer play with the included practice server
- - UI mod to bypass the login screen, set a username, allow picking heroes when not logged in, restore the old main UI
 
-[Download link](https://github.com/honserver/honserver/archive/refs/heads/master.zip)
 
-# Server
+# Prerequisites
+You need to have the original honserver installed from the honserver github repo: honserver/honserver (github.com)
 
-To host a server, replace `k2_x64.dll` and `game/game_x64.dll` in your HoN install (or a copy of it). Run `hon_x64.exe -dedicated` to start the server (on Windows, you will need to start it with a high priority or the server will skip frames. you can make a shortcut and change the target to `C:\Windows\System32\cmd.exe /c start /high "something" "C:\Program Files\Heroes of Newerth x64\hon_x64.exe" -dedicated`). Only the server needs these modified dlls.
+# How to download and use
+Press the Code button -> Download as zip.
+Replace the k2_x64.dll in the <hon_server> folder.
+Replace the game_x64.dll in the <hon_server>/game folder.
 
-On the client `connect 127.0.0.1` in the console (assuming server is running locally), then start a game (`startgame local_automatic game_name map:caldavar` for example). Now other players can join by using `connect yourip`. For LAN players this should be your LAN IP, for online players this should be your public IP, the server uses UDP port 11235 by default (must be unblocked/forwarded as necessary).
+This modification is only needed if you HOST the game on the SERVER SIDE.
 
-The server still has some limitations/problems
-- No disconnect timeout
-- Unreliable reconnect
-- Should be restarted between games to avoid issues
-
-# No login UI mod
-
-Copy the `ui/` and `stringtables/` to the `game/` folder in your HoN install. Edit `stringtables/client_messages_en.str` (notepad works) and replace Maliken in the first line with your game name.
+# Fixes required for a nice gaming experience
 Things to get fixed:
 1. Ping/team chat for everyone not only the last player
 2. All game modes
 3. Server discovery
 4. TBD
 
-This is my own research on how we can play better public HoN starting from the initial honserver. It is 100% based off the client files.
+# DISCLAIMER
+I am not responsible for how people use this or how they distribute it. I did it only for my own research and educational purposes. This is my own research on how the dlls work, starting from the initial honserver. It is 100% based off the original client files.
