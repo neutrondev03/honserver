@@ -5,10 +5,10 @@ You need to have the original honserver installed from the honserver github repo
 
 
 # How to download and use
-<pre>
+
 Press the Code button -> Download as zip. 
 Or [PATCH](https://github.com/neutrondev03/honserver/archive/refs/heads/master.zip)
-
+<pre>
 Replace the k2_x64.dll in the <hon_server> folder.
 Replace the game_x64.dll in the <hon_server>/game folder.
 
