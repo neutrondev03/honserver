@@ -1,10 +1,12 @@
 
 
 # Prerequisites
-You need to have the original honserver installed from the honserver github repo: honserver/honserver (github.com)
+You need to have the original honserver installed from the honserver github repo: [Download link honserver](https://github.com/honserver/honserver/archive/refs/heads/master.zip)
+
 
 # How to download and use
-Press the Code button -> Download as zip.
+Press the Code button -> Download as zip. Or
+[PATCH](https://github.com/neutrondev03/honserver/archive/refs/heads/master.zip)
 Replace the k2_x64.dll in the <hon_server> folder.
 Replace the game_x64.dll in the <hon_server>/game folder.
 
