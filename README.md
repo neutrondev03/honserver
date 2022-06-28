@@ -7,6 +7,8 @@ You need to have the original honserver installed from the honserver github repo
 # How to download and use
 Press the Code button -> Download as zip. Or
 [PATCH](https://github.com/neutrondev03/honserver/archive/refs/heads/master.zip)
+
+
 Replace the k2_x64.dll in the <hon_server> folder.
 Replace the game_x64.dll in the <hon_server>/game folder.
 
@@ -20,4 +22,5 @@ Things to get fixed:
 4. TBD
 
 # DISCLAIMER
+THIS IS PROVIDED AS IS!!! Don’t ask anything about fixes or how or when etc. If you don’t like it leave it :D.
 I am not responsible for how people use this or how they distribute it. I did it only for my own research and educational purposes. This is my own research on how the dlls work, starting from the initial honserver. It is 100% based off the original client files.
