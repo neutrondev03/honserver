@@ -11,15 +11,19 @@ Or [PATCH](https://github.com/neutrondev03/honserver/archive/refs/heads/master.z
 <pre>
 Replace the k2_x64.dll in the <hon_server> folder.
 Replace the game_x64.dll in the <hon_server>/game folder.
+Replace the game_shared_x64.dll in the <hon_server>/game folder.
 
 This modification is only needed if you HOST the game on the SERVER SIDE.
 </pre>
 # Fixes required for a nice gaming experience
 Things to get fixed:
+<pre>
+
 1. Ping/team chat for everyone not only the last player
 ~2. All game modes~
 3. Server discovery
-4. TBD
+~4. Avatars~
+</pre>
 
 # DISCLAIMER
 THIS IS PROVIDED AS IS!!! Don’t ask anything about fixes or how or when etc. If you don’t like it leave it :D.
